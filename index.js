@@ -43,7 +43,7 @@
       svg = getSVGNode(vis)
       if (!svg) return
       point = svg.createSVGPoint()
-      rootElement.appendChild(node)
+      rootElement().appendChild(node)
     }
 
     // Public - show the tooltip on the screen
